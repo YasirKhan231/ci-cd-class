@@ -32,46 +32,48 @@ This dashboard provides a complete view of business workflows including procurem
 - 🛒 **B2B Orders** – Create, approve, dispatch, and track business-to-business orders  
 - ⚙️ **Admin Settings** – Role management (SA / Super Admin)  
 
----
 
-## 📂 Project Structure  
+## 📂 Project Structure
+
+```
 fillflow-frontend-sleepyowl/
-│── public/ # Static assets
+│── public/
 │── src/
-│ ├── app/
-│ │ ├── Actions/ # Action handlers
-│ │ ├── admin/ # Admin settings
-│ │ ├── assembly/ # Assembly workflows
-│ │ ├── b2b/ # B2B Orders module
-│ │ ├── components/ # Reusable React components
-│ │ ├── constants/ # App constants
-│ │ ├── dispatch/ # Dispatch management
-│ │ ├── engraving/ # Engraving workflows
-│ │ ├── inventory/ # Inventory management
-│ │ ├── login/ # Auth/login page
-│ │ ├── master/ # Master data
-│ │ ├── new/ # New features
-│ │ ├── procurement/ # Procurement workflows
-│ │ ├── production/ # Production flows
-│ │ ├── Reducers/ # Redux reducers
-│ │ ├── report/ # Report management
-│ │ ├── reports/ # Report pages
-│ │ ├── rto/ # Return to Origin handling
-│ │ ├── services/ # API services
-│ │ ├── storage/ # Storage module
-│ │ ├── utils/ # Helper functions
-│ │ ├── Providers.js # Redux + Context providers
-│ │ ├── store.js # Redux store config
-│ │ ├── layout.js # Global layout
-│ │ ├── page.js # Root page ("/")
-│ │ └── globals.css # Global styles
+│   ├── app/
+│   │   ├── Actions/
+│   │   ├── admin/
+│   │   ├── assembly/
+│   │   ├── b2b/
+│   │   ├── components/
+│   │   ├── constants/
+│   │   ├── dispatch/
+│   │   ├── engraving/
+│   │   ├── inventory/
+│   │   ├── login/
+│   │   ├── master/
+│   │   ├── new/
+│   │   ├── procurement/
+│   │   ├── production/
+│   │   ├── Reducers/
+│   │   ├── report/
+│   │   ├── reports/
+│   │   ├── rto/
+│   │   ├── services/
+│   │   ├── storage/
+│   │   ├── utils/
+│   │   ├── Providers.js
+│   │   ├── store.js
+│   │   ├── layout.js
+│   │   ├── page.js
+│   │   └── globals.css
 │── package.json
 │── tailwind.config.js
 │── next.config.mjs
+```
 
 
 
----
+
 
 ## ⚡️ Getting Started  
 
