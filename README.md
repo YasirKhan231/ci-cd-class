@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💤 Fillflow Frontend – SleepyOwl  
 
-## Getting Started
+A modern **Next.js + React** based frontend application for managing **operations, storage, production, inventory, B2B orders, and reports** at SleepyOwl.  
+This dashboard provides a complete view of business workflows including procurement, replenishment, reporting, and admin management.  
 
-First, run the development server:
+---
 
+## 🚀 Tech Stack  
+
+- **Next.js 14** – React Framework for server-side rendering & routing  
+- **React 18** – Component-based UI library  
+- **TailwindCSS** – Styling & responsive UI  
+- **Redux Toolkit + Redux Persist** – State management  
+- **Axios** – API calls  
+- **MUI (Material UI)** – Prebuilt UI components  
+- **Day.js / Moment.js** – Date & time handling  
+- **Formik + Yup** – Forms & validation  
+- **React-Toastify** – Notifications  
+- **JS PDF & HTML2Canvas** – PDF & report exports  
+- **React Icons / Lucide React** – Icons  
+
+---
+
+## ✨ Features  
+
+- 📦 **Storage Management** – Track SKUs, stock levels, raw materials, finished goods  
+- 🏭 **Production** – Manage production-level workflows  
+- 📊 **Inventory** – Monitor current stock, under-stock, over-stock levels  
+- 🔄 **Replenishment Team** – Handle procurement and reordering  
+- 📑 **Master Data** – Manage SKUs, suppliers, and base product data  
+- 📈 **Reports** – Generate invoices, party ledgers, credit notes, and more  
+- 🛒 **B2B Orders** – Create, approve, dispatch, and track business-to-business orders  
+- ⚙️ **Admin Settings** – Role management (SA / Super Admin)  
+
+---
+
+## 📂 Project Structure  
+fillflow-frontend-sleepyowl/
+│── public/ # Static assets
+│── src/
+│ ├── app/
+│ │ ├── Actions/ # Action handlers
+│ │ ├── admin/ # Admin settings
+│ │ ├── assembly/ # Assembly workflows
+│ │ ├── b2b/ # B2B Orders module
+│ │ ├── components/ # Reusable React components
+│ │ ├── constants/ # App constants
+│ │ ├── dispatch/ # Dispatch management
+│ │ ├── engraving/ # Engraving workflows
+│ │ ├── inventory/ # Inventory management
+│ │ ├── login/ # Auth/login page
+│ │ ├── master/ # Master data
+│ │ ├── new/ # New features
+│ │ ├── procurement/ # Procurement workflows
+│ │ ├── production/ # Production flows
+│ │ ├── Reducers/ # Redux reducers
+│ │ ├── report/ # Report management
+│ │ ├── reports/ # Report pages
+│ │ ├── rto/ # Return to Origin handling
+│ │ ├── services/ # API services
+│ │ ├── storage/ # Storage module
+│ │ ├── utils/ # Helper functions
+│ │ ├── Providers.js # Redux + Context providers
+│ │ ├── store.js # Redux store config
+│ │ ├── layout.js # Global layout
+│ │ ├── page.js # Root page ("/")
+│ │ └── globals.css # Global styles
+│── package.json
+│── tailwind.config.js
+│── next.config.mjs
+
+
+
+---
+
+## ⚡️ Getting Started  
+
+### 1️⃣ Clone the repository  
 ```bash
+git clone https://github.com/fillfow/fillflow-frontend-sleepyowl.git
+cd fillflow-frontend-sleepyowl
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+``` 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+##4️⃣ Open in browser
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Visit: http://localhost:3000
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
