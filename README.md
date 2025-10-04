@@ -89,24 +89,25 @@ MONGO_URL=your_mongodb_connection_string
 JWT_SECRET_KEY=your_jwt_secret
 
 ## EasyEcom Integration
-
+```
 EASYECOM_BASE_URL=your_easycom_base_url
 EASYECOM_EMAIL=your_easycom_email
 EASYECOM_PASSWORD=your_easycom_password
 EASYECOM_LOCATION_KEY=your_easycom_location_key
-
+```
 ## Whitebooks Integration
-
+```
 WHITEBOOKS_BASE_URL=your_whitebooks_base_url
 WHITEBOOKS_CLIENT_ID=your_whitebooks_client_id
 WHITEBOOKS_CLIENT_SECRET=your_whitebooks_client_secret
 WHITEBOOKS_USERNAME=your_whitebooks_username
 WHITEBOOKS_PASSWORD=your_whitebooks_password
-
+```
 ## Seller Information
-
+```
 SELLER_NAME=your_seller_name
 SELLER_ADDRESS=your_seller_address
 SELLER_CITY=your_seller_city
 SELLER_PINCODE=your_seller_pincode
 SELLER_STATECODE=your_seller_statecode
+```
