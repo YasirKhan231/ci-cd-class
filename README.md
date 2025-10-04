@@ -80,22 +80,22 @@ Visit: http://localhost:5000
 
 Create a .env file in the root directory with the following variables:
 
-# Database
+## Database
 
 MONGO_URL=your_mongodb_connection_string
 
-# JWT
+## JWT
 
 JWT_SECRET_KEY=your_jwt_secret
 
-# EasyEcom Integration
+## EasyEcom Integration
 
 EASYECOM_BASE_URL=your_easycom_base_url
 EASYECOM_EMAIL=your_easycom_email
 EASYECOM_PASSWORD=your_easycom_password
 EASYECOM_LOCATION_KEY=your_easycom_location_key
 
-# Whitebooks Integration
+## Whitebooks Integration
 
 WHITEBOOKS_BASE_URL=your_whitebooks_base_url
 WHITEBOOKS_CLIENT_ID=your_whitebooks_client_id
@@ -103,7 +103,7 @@ WHITEBOOKS_CLIENT_SECRET=your_whitebooks_client_secret
 WHITEBOOKS_USERNAME=your_whitebooks_username
 WHITEBOOKS_PASSWORD=your_whitebooks_password
 
-# Seller Information
+## Seller Information
 
 SELLER_NAME=your_seller_name
 SELLER_ADDRESS=your_seller_address
